@@ -9,7 +9,6 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>${{values.java_package_name}}</groupId>
-    <artifactId>archetype-java17</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <artifactId>${{values.artifact_id}}</artifactId>
     <description>${{values.description}}</description>
