@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: springboot-template
+  name: springboot-template-java
   title: Spring Boot Java 17
   description: Create a simple microservice using Spring Boot Java
   tags:
