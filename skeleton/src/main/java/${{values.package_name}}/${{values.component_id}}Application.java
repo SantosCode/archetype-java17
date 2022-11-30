@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ArchetypeJava17Application {
+public class ${{values.component_id}}Application {
 
     public static void main(String[] args) {
         SpringApplication.run(ArchetypeJava17Application.class, args);
