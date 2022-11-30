@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: SantosCode/archetype-java17
 spec:
-  type: other
-  lifecycle: unknown
-  owner: team-a
+  type: service
+  lifecycle: production
+  owner: SantosCode

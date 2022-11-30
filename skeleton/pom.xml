@@ -8,11 +8,11 @@
         <version>3.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>br.com.vr</groupId>
+    <groupId>${{values.java_package_name}}</groupId>
     <artifactId>archetype-java17</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>archetype-java17</name>
-    <description>archetype-java17</description>
+    <artifactId>${{values.artifact_id}}</artifactId>
+    <description>${{values.description}}</description>
     <properties>
         <java.version>17</java.version>
     </properties>

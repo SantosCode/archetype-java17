@@ -1,4 +1,4 @@
-package br.com.vr.archetypejava17;
+package br.com.vr.${{values.component_id}};
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

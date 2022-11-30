@@ -1,4 +1,4 @@
-package br.com.vr.archetypejava17;
+package br.com.vr.${{values.component_id}};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
