@@ -1,9 +1,9 @@
-apiVersion: scaffolder.backstage.io/v1beta3
+apiVersion: scaffolder.backstage.io/v1
 kind: Template
 metadata:
   name: springboot-template-java
   title: Spring Boot Java 17
-  description: Create a simple microservice using Spring Boot Java
+  description: Create a simple microservice using Spring Boot Java 17
   tags:
     - recommended
     - java
@@ -25,9 +25,13 @@ spec:
           description: Unique name of the component
           ui:field: EntityNamePicker
         java_package_name:
+          title: Java Package
+          type: string
+          description: Name for the java package. eg (br.com.vr)
+        java_package_name:
           title: Package
           type: string
-          description: Name for the java package. eg (io.backstage.blah)
+          description: Name for package. eg (br/com/vr)
         description:
           title: Descrição
           type: string
