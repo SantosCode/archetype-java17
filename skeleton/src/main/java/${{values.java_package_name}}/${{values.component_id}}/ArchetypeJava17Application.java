@@ -1,4 +1,4 @@
-package ${{ parameters.java_package_name }}.${{values.component_id}};
+package ${{values.java_package_name}}.${{values.component_id}};
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

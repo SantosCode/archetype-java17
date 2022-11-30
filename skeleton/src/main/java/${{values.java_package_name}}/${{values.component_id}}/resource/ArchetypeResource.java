@@ -1,4 +1,4 @@
-package ${{ parameters.java_package_name }}.${{values.component_id}}.resource;
+package ${{values.java_package_name}}.${{values.component_id}}.resource;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
