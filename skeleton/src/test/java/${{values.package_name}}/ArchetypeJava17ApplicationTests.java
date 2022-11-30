@@ -1,4 +1,4 @@
-package ${{values.java_package_name}}.${{values.component_id}};
+package ${{values.java_package_name}};
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
